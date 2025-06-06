@@ -15,10 +15,6 @@ const sessionSchema = new mongoose.Schema({
         type: String,
       //  enum: ['Geography'],
         required: true
-    },
-    files: {
-        type: [String], // Array of file paths
-        default: []
     }
 })
 
